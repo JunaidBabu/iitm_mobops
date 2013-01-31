@@ -1,82 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE HTML>
+<html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta http-equiv="content-type" content="application/xhtml+xml" charset="UTF-8">
-		<title>Emergency</title>
-		
-		<link href="./res_files/g=css-people-index-compliant-computer-unknown-d41d8cd98f00b204e9800998ecf8427e&config=people"
-		rel="stylesheet" media="all" type="text/css">
-		<script type="text/javascript" async="" src="./res_files/ga.js"></script>
-		<script type="text/javascript">
-			var URL_BASE = '/';
-			var API_URL_PREFIX = 'rest';
-			var KUROGO_PAGETYPE = 'compliant';
-			var KUROGO_PLATFORM = 'computer';
-			var KUROGO_BROWSER = 'unknown';
-		</script>
-		<script type="text/javascript">
-			var AJAX_CONTENT_LOADING_HTML = '<div class="loading"><div><img src="/common/images/loading.gif" width="27" height="21" alt="Loading" align="absmiddle" />Loading...</div></div>';
-			var AJAX_CONTENT_ERROR_HTML = '<div class="nonfocal">Unable to load content</div>';
-		</script>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-2923555-23']);
-			_gaq.push(['_trackPageview']);
-		</script>
-		<script src="./res_files/g=js-people-index-compliant-computer-unknown-d41d8cd98f00b204e9800998ecf8427e&config=people"
-		type="text/javascript"></script>
-		<script type="text/javascript">
-			setupOrientationChangeHandlers();
-		</script>
-		<script type="text/javascript">
-			function onLoad() {
-				scrollToTop();
-			}
-		</script>
-		<meta name="format-detection" content="telephone=no">
-		<meta name="HandheldFriendly" content="true">
-		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
-		
-		
+		<title>Employee Details</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1"
+		/>
+		<link rel="stylesheet" href="People/css/jquery.mobile-1.0rc2.min.css" />
+		<link rel="stylesheet" href="People/css/styles.css" />
 	</head>
-	<body class="PeopleModule kgo-has-navmenu kgo-has-navbar landscape" onload="onLoad();onOrientationChange();">
-		<div id="nonfooternav">
-			<div id="navbar" class="helpon">
-				<div class="breadcrumbs homepage"><a href="index.html" class="homelink" title="IITM Mobile Web home"><img src="./res_files/home_link.png" width="46" height="45" alt="IITM Mobile Web home"></a>
-					<span
-					class="pagetitle">
-						<img src="./res_files/emergency.png" width="30" height="30" alt="" class="moduleicon">Emergency</span>
-				</div>
-				<div class="help"><a href="#"
-					title="People help"><img src="./res_files/help.png" width="44" height="45" alt="People help"></a>
-				</div>
+	<body>
+		<div data-role="page" data-add-back-btn="true">
+			<div data-role="header">
+					<h1>Emergency Contacts</h1>
+
 			</div>
-			<div id="container">
-				<div class="nonfocal" id="searchformcontainer">
-					
-					
-				<div id="footerlinks"><a href="#top">Back to top</a> | <a href="index.html">IITM Mobile Web home</a>
-				</div>
-				<div id="footer">
-					<div class="copyright"><a href="#">© 2013 Mobops Team, IIT Madras</a>
-					</div></div>
-				<script type="text/javascript">
-					(function() {
-						var ga = document.createElement('script');
-						ga.type = 'text/javascript';
-						ga.async = true;
-						ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-						var s = document.getElementsByTagName('script')[0];
-						s.parentNode.insertBefore(ga, s);
-					})();
-				</script>
-			</div>
-			<!--container -->
+			<ul data-role="listview" data-inset="true" class="action-list">
+				
+				<li><a href='tel:044-2257-9999'><h3>Security</h3><p>044-2257-9999</p></a>
+				</li>
+				<li><a href='tel:044-2257-8280'><h3>Fire</h3><p>044-2257-8280</p></a>
+				</li>
+				<li><a href='tel:100'><h3>Police</h3><p>100</p></a>
+				</li>
+				<li><a href='tel:101'><h3>Fire</h3><p>101</p></a>
+				</li>
+				<li><a href='tel:108'><h3>Medical</h3><p>108</p></a>
+				</li>
+			</ul>
 		</div>
-		<!--nonfooternav -->
-		<div id="sbi_camera_button" class="sbi_search" style="left: 0px; top: 0px; position: absolute; width: 29px; height: 27px; border: none; margin: 0px; padding: 0px; z-index: 2147483647; display: none;"></div>
+		</div>
+		<script src="People/js/jquery-1.6.4.min.js"></script>
+		<script src="People/js/jquery.mobile-1.0rc2.min.js"></script>
 	</body>
 
 </html>
